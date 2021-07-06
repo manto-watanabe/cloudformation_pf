@@ -345,7 +345,7 @@ Resources:
     Type: AWS::S3::Bucket
     Properties: 
       AccessControl: Private
-      BucketName: !Sub ${AWS::StackName}-s3bucket-dev
+      BucketName: s3bucket-dev
       PublicAccessBlockConfiguration:
         BlockPublicAcls: true
         BlockPublicPolicy: true
